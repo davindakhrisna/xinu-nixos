@@ -1,4 +1,6 @@
 *-screen.png
 *.qcow2
+*.qcow2.zst
 *.vmdk
 *.ova
+release-assets/
