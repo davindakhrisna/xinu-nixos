@@ -1,5 +1,14 @@
 <network>
   <name>xinu_net</name>
+  <forward mode='nat'/>
   <bridge name='virbr-xinu' stp='on' delay='0'/>
   <mac address='52:54:00:55:1d:1c'/>
+  <ip address='10.0.2.1' netmask='255.255.255.0'>
+    <tftp root='/var/tmp/xinu-tftp'/>
+    <dhcp>
+      <range start='10.0.2.100' end='10.0.2.200'/>
+      <host mac='08:00:27:9e:f4:08' name='xinu-backend' ip='10.0.2.131'/>
+      <bootp file='xinu.boot' server='10.0.2.1'/>
+    </dhcp>
+  </ip>
 </network>

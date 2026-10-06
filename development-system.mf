@@ -1,2 +1,0 @@
-SHA256 (development-system-disk001.vmdk) = 1c6f92e71348181d7dfaab3ce969d10bb08cecf62d94eedaff7b7f64cfbbd8af
-SHA256 (development-system.ovf) = 84313dae2bf727257c19cb7084321114f8fa5880e8bc3da428fa63e5224706da
